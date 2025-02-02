@@ -1,0 +1,24 @@
+package Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import Entity.Users;
+
+@Repository
+public interface User_Repository extends JpaRepository<Users, Integer>
+{
+	@Query("SELECT u from Users u where username =:username and password=:pwd and accountstatus=1")
+	public Users findByUsernameAndPassword(String username,String pwd);
+	   
+	@Modifying
+	@Query("update Users set password=:pwd where username =:username")
+	public int updatepassword(String username,String pwd);
+
+    @Modifying
+	@Query("update Users set accountstatus=0  where user_id =:uid")
+	public int Update(int uid);
+}
+
