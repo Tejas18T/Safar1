@@ -1,0 +1,148 @@
+[
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "ActivateUser",
+    "RelativePath": "admin/activateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "P20_Tran.DTO.GetUserId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "GetAllActiveUsers",
+    "RelativePath": "admin/allActiveUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "GetAllInactiveUsers",
+    "RelativePath": "admin/allInactiveUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "ApproveCompany",
+    "RelativePath": "admin/approveCompany",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "P20_Tran.DTO.GetCompanyId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "DeleteCompany",
+    "RelativePath": "admin/deleteCompany",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "P20_Tran.DTO.GetCompanyId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "DeleteTrip",
+    "RelativePath": "admin/deleteTrip",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "P20_Tran.DTO.GetTripId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "admin/deleteUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "P20_Tran.DTO.GetUserId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "GetAllActiveTrips",
+    "RelativePath": "admin/getActiveTrips",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "GetAllActiveCompanies",
+    "RelativePath": "admin/getAllActiveCompanies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "GetCompaniesForApproval",
+    "RelativePath": "admin/getForApproveCompanies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P20_Tran.Controllers.AdminController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "admin/newAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "P20_Tran.DTO.DummyUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
